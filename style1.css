@@ -1,0 +1,127 @@
+body{
+    margin: 0px;
+    background-color: #F0F2F5;
+    font-family: sans-serif;
+}
+nav{
+    background-color: white;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+.facefoto{
+    width: 140px;
+    position: relative;
+}
+input{
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 200px;
+    padding: 12px;
+    margin: 7px 2px;
+    border: 1px solid #afaeae;
+}
+.login{
+    box-sizing: border-box;
+    width: 70px;
+    padding: 12px;
+    margin: 10px 2px;
+    background-color: #1877F2;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.login:hover{
+    background-color: #1665cc;
+    cursor: pointer;
+}
+.pass{
+    color: #4A72F2;
+    text-decoration: none;
+    margin-top: 6px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.pass:hover{
+    text-decoration: underline;
+}
+.main{
+    width: 100%;
+    margin: 120px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.find{
+    width: 35%;
+    background-color: white;
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+.inp_email{
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+.find_font{
+    display: flex;  
+    color: #162643;
+    font-size: 20px;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+h3{
+    padding: 0px;
+    margin: 0px;
+}
+.please{
+    font-size: 18px;
+}
+.button_div{
+    padding: right;
+    margin: 20px 20px;
+}
+.cancel_search{
+    padding: 7px 13px;
+    font-size: 15px;
+    font-family: Helvetica, sans-serif;
+    display: inline-block;
+    border-radius: 5px;
+    border: none;
+    margin: right;
+    background-color: #e0e0e0;
+    box-sizing: border-box;
+}
+.cancel_search:hover{
+    cursor: pointer;
+}
+.input_div{
+    border: 1px solid #d0d0d0;
+    border-right: none;
+    border-left: none;
+    padding: 20px;
+}
+input:focus{
+    outline: 2px solid #1877f2;
+}
+.search{
+    background-color: #1877F2;
+    color: white;
+}
+.search:hover{
+    background-color: #1665cc;
+}

@@ -1,0 +1,222 @@
+body{
+    background-color: #F0F2F5;
+    background-repeat: no-repeat;
+    background-image: url("facebook - background.png");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6) rgba(255, 255, 255, 0.6));
+    background-size: 100% 118%;
+}
+.main{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.main1{
+    padding: 20px;
+    width: 25%;
+    background-color: #FFFFFF;
+    border-radius: 7px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+.signup{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: SFPro-Display-Bold, Helvetica;
+}
+.text{
+    border-bottom: 1px solid #d0d0d0;
+    padding: 10px 0px 15px 0px;
+}
+h1{
+    padding: 0px;
+    margin: 0px;
+    width: 70%;
+}
+.img_x{
+    padding: 0px;
+    margin: 0px;
+    height: 25px;
+    width: 23px;
+    color: black;
+}
+.name{ 
+    display: inline-block;
+    margin:  8px auto 0px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 48%;
+    padding: 11px;
+    border: 1px solid #afaeae;
+    background-color: #F5F6F7;
+}
+.name:focus{
+    outline: 1px solid #afaeae;
+}
+.first-last{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+}
+.mobile-password{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:  10px auto;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 98%;
+    padding: 11px;
+    border: 1px solid #afaeae;
+    background-color: #F5F6F7;
+}
+.mobile-password:focus{
+    outline: 1px solid #afaeae;
+}
+.birthday{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-family: Helvetica, sans-serif;
+    padding: 3.5px;
+    margin-top: 12px;
+}
+.select{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 3px 4px;
+    margin-top: 2px;
+}
+select{
+    padding: 8px;
+    width: 30%;
+    border-radius: 5px;
+    border: 1px solid #afaeae;
+}
+select:focus{
+    outline: 1px solid #afaeae;
+}
+.gender{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-family: Helvetica, sans-serif;
+    padding: 3.5px;
+    margin-top: 12px;
+}
+.fa-solid{
+    margin-left: 5px;
+}
+.radio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 3px 4px;
+    margin-top: 2px;
+}
+.female{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid #afaeae;
+    border-radius: 5px;
+    padding: 8px 25px;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+}
+.female:focus{
+    outline: 1px solid #afaeae;
+}
+.male{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid #afaeae;
+    border-radius: 5px;
+    padding: 8px 20px;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+}
+.male:focus{
+    outline: 1px solid #afaeae;
+}
+.custom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid #afaeae;
+    border-radius: 5px;
+    padding: 8px 24px;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+}
+.custom:focus{
+    outline: 1px solid #afaeae;
+}
+.femaleradio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.maleradio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.customradio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+p{
+    padding: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+}
+a{
+    text-decoration: none;
+    color: #385898;
+}
+a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+.button_sign{
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    letter-spacing: 1px;
+    padding: 7px 60px;
+    margin: 10px auto 0px;
+    color: #FFFFFF;
+    background-color: #00A400;
+}
+.button_sign:hover{
+    cursor: pointer;
+    background-color: #66985A;
+}
